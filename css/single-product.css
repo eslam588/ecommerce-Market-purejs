@@ -1,0 +1,65 @@
+.product-img{
+    width:40%;
+}
+
+.product-name{
+    color:#278176;
+    font-size:25px;
+}
+
+.product-price{
+    font-weight:bold;
+    font-size:18px;
+    color:#1c7366;
+}
+
+.select-weigh{
+    width:30px;
+    margin-bottom:40px;
+
+}
+.product-desc{
+    width:60%;
+    margin-left:80px
+}
+
+.quan {
+    border:1px solid #1c7c5f;
+    border-radius:20px;
+    display:inline-block;
+}
+.quan  .item-qty{
+    text-align:center;
+    width:50px;
+    padding:8px;
+    border-left:1px solid #599d95;
+    border-right:1px solid #599d95;
+}
+
+.quan  button{
+    background:none;
+    border:none;
+    padding:5px 12px;
+    text-align:center;
+}
+
+.cart-btn{
+    border-radius:20px;
+    color:white;
+    padding: 6px 20px;
+    border : none;
+    background-image: linear-gradient(to right,#1c7366,#73a338);
+    position: relative;
+}
+.prodquant{
+   position: absolute;
+   top: -7px;
+   right: -7px;
+   width:18px;
+   height:18px;
+   background-color:#f7dd01;
+   border-radius:10px;
+   color:#1c7366;
+   font-size:12px;
+   font-weight:bold;
+}
